@@ -7,8 +7,8 @@
 #include <iostream>
 #include <optional>
 
-constexpr int screen_width   = 640;
-constexpr int screeen_height = 480;
+constexpr int screen_width  = 640;
+constexpr int screen_height = 480;
 
 enum class KeyPressSurfaces
 {
@@ -38,7 +38,7 @@ void init()
         raise_error("SDL could not initialize! SDL Error: " << SDL_GetError());
 
     // location of window irrelevant
-    g_window = SDL_CreateWindow("Lynton", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, screen_width, screeen_height, SDL_WINDOW_SHOWN);
+    g_window = SDL_CreateWindow("Lynton", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, screen_width, screen_height, SDL_WINDOW_SHOWN);
     if (g_window == nullptr)
         raise_error("Window could not be created! SDL Error: " << SDL_GetError());
 
@@ -164,7 +164,7 @@ int main(int argc, char* argv[])
         strech_rect.x = 0;
         strech_rect.y = 0;
         strech_rect.w = screen_width / 2;
-        strech_rect.h = screeen_height / 2;
+        strech_rect.h = screen_height / 2;
 
         SDL_RenderClear(g_renderer);
 
@@ -174,6 +174,7 @@ int main(int argc, char* argv[])
         // update screen
         SDL_RenderPresent(g_renderer);
 
+        // for bliting a surface instead
         // SDL_BlitSurface(g_current_surface, nullptr, g_screen_surface, nullptr);
         // SDL_BlitScaled(g_current_surface, nullptr, g_screen_surface, &strech_rect);
         // SDL_UpdateWindowSurface(g_window);

@@ -1,4 +1,4 @@
-project "texture_button"
+project "02_geometry"
     language "C++"
     cppdialect "c++17"
     kind "ConsoleApp"
