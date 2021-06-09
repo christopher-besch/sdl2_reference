@@ -1,4 +1,4 @@
-project "lynton"
+project "texture_button"
     language "C++"
     cppdialect "c++17"
     kind "ConsoleApp"

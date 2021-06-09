@@ -32,4 +32,4 @@ workspace "lynton"
         defines { "WINDOWS" }
     filter {}
 
-include "lynton"
+include "texture_button"

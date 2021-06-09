@@ -3,4 +3,4 @@ set -euo pipefail
 IFS=$' \n\t'
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
 
-cppcheck --language=c++ lynton/src/* utils/src/* --quiet
+cppcheck --language=c++ texture_button/src/* utils/src/* --quiet

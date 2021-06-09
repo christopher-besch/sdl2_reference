@@ -6,4 +6,4 @@ DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
 make config=debug_linux -j12
 ./check
 echo "==== build done ===="
-./bin/Debug-Linux/lynton/lynton
+./bin/Debug-Linux/texture_button/texture_button
