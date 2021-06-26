@@ -1,8 +1,9 @@
-# lynton
+# SDL2 Reference
 
-Lynton Game Engine
-
-This repository is under construction and not in a usable state.
+[![Build Linux](https://github.com/christopher-besch/sdl2_reference/workflows/Build%20Linux/badge.svg)](https://github.com/christopher-besch/sdl2_reference/actions/workflows/build_linux.yml)
+[![Build Windows](https://github.com/christopher-besch/sdl2_reference/workflows/Build%20Windows/badge.svg)](https://github.com/christopher-besch/sdl2_reference/actions/workflows/build_windows.yml)
+[![Build macOS](https://github.com/christopher-besch/sdl2_reference/workflows/Build%20macOS/badge.svg)](https://github.com/christopher-besch/sdl2_reference/actions/workflows/build_macos.yml)
+[![License](https://img.shields.io/badge/license-MIT-yellow)](https://github.com/christopher-besch/sdl2_reference/blob/main/LICENSE)
 
 ## Dependencies
 
