@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/pngimage.dir/contrib/libtests/pngimage.c.o  -o pngimage  -Wl,-rpath,/home/chris/files/cpp/sdl2_reference/build/vendor/sdl_image/external/libpng-1.6.37:/home/chris/files/cpp/sdl2_reference/build/vendor/sdl_image/external/zlib-1.2.11 libpng16.so.16.37.0 ../zlib-1.2.11/libz.so.1.2.11 -lm 

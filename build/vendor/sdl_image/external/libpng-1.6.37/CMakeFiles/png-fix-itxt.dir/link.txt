@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/png-fix-itxt.dir/contrib/tools/png-fix-itxt.c.o  -o png-fix-itxt  -Wl,-rpath,/home/chris/files/cpp/sdl2_reference/build/vendor/sdl_image/external/zlib-1.2.11 ../zlib-1.2.11/libz.so.1.2.11 -lm 

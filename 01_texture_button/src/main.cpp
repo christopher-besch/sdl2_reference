@@ -2,10 +2,18 @@
 #include <emscripten.h>
 #endif
 
-#include "pch.h"
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
 
 #include <iostream>
 #include <optional>
+
+#define raise_error(msg)                                                                                                  \
+    do                                                                                                                    \
+    {                                                                                                                     \
+        std::cerr << msg << " (in: " << __FILE__ << ":" << __LINE__ << "; in function: " << __func__ << ")" << std::endl; \
+        std::exit(EXIT_FAILURE);                                                                                          \
+    } while (0)
 
 constexpr int screen_width  = 640;
 constexpr int screen_height = 480;

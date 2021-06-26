@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/minigzip64.dir/test/minigzip.o  -o minigzip64  -Wl,-rpath,/home/chris/files/cpp/sdl2_reference/build/vendor/sdl_image/external/zlib-1.2.11 libz.so.1.2.11 
